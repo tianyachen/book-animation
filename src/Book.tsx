@@ -10,7 +10,7 @@ export function Book({ href }: { href: { imgUrl: string; infoUrl: string } }) {
           (e.currentTarget.style.transform = "rotateY(-30deg)")
         }
       >
-        <a href={href.infoUrl}>
+        <a href={href.infoUrl} target="_blank" rel="noopener noreferrer">
           <img
             src={href.imgUrl}
             alt="Book Cover"
